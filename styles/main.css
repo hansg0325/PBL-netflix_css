@@ -1,0 +1,54 @@
+.main-movie-container {
+    background-color: var(--primary);
+    margin-top: 13px;
+    margin-bottom: 44px;
+    display: flex;
+}
+
+.main-movie-img {
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    z-index: 1;
+}
+
+.main-movie-info{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 2;
+}
+
+.main-movie-title {
+    color: white;
+    font: bold;
+    font-size: 70px;
+}
+
+.main-movie-detail {
+    color: white;
+    font: bold;
+    font-size: 20px;
+}
+
+.play-button{
+    font-size: 19px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 7px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+}
+
+.detail-button {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 7px;
+    height: 40px;
+    width: 100px;
+    border: none;
+}
